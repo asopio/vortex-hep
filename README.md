@@ -1,6 +1,15 @@
 # vortex-hep
 
-Utilities for converting ATLAS H→γγ ROOT ntuples into compact Vortex datasets and for inspecting the resulting `.vortex` files.
+Utilities for converting ATLAS ROOT ntuples into compact Vortex datasets and for inspecting the resulting `.vortex` files.
+
+## Roadmap 
+
+- Generic Root file handling framework, allowing systeamtics tree names to be specified via a config file
+- Run on streaming XRootD inputs 
+- Utilities for reading .vortex files into ROOT RDataFrame
+- Benchmark histograms + profile likelihood comparing ROOT / vortex inputs
+
+
 
 ## What is in this repo
 
