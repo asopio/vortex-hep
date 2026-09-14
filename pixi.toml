@@ -1,0 +1,18 @@
+[workspace]
+authors = ["Alex Sopio <alexander.linus.sopio@cern.ch>"]
+channels = ["conda-forge"]
+name = "vortex-hep"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[activation.env]
+KRB5CCNAME = "$PIXI_PROJECT_ROOT/krb5.cc"
+
+[tasks]
+
+[dependencies]
+root = ">=6.40.4,<7"
+
+[pypi-dependencies]
+vortex-data = ">=0.85.0, <0.86"
+uproot = ">=5.7.6, <6"
